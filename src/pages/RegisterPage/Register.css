@@ -1,0 +1,80 @@
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom, #003a70, #e96e00);
+}
+
+.formContainer {
+  background: #fff;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 320px;
+  font-family: "Poppins", sans-serif;
+}
+
+.logo {
+  width: 80px;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: 900;
+  margin-bottom: 30px;
+  color: #205375;
+  font-family: "Poppins", sans-serif;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 1rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border-radius: 10px;
+}
+
+#input {
+  padding: 12px;
+  /* color: #000000; */
+  /* border-radius: 20px; */
+  /* border: 1px solid #ccc; */
+  font-size: 16px;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+}
+
+
+#buttonback {
+  background-color: #FB7921;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  /* padding: 12px 20px; */
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+}
+
+#buttonregistrar {
+  background-color: #205375;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  /* padding: 12px 20px; */
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+}
